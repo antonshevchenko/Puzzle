@@ -1,0 +1,55 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<title>Sliding Puzzlegram</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/puzzle.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="line"></div>
+			<div id="logo">
+				<div class="z">z</div>				
+				<div class="z">z</div>
+			</div>
+			<div class="line"></div>
+		</header>
+		<h1><span id="slide">SLIDING</span><span id="gram">PUZZLEGRAM</span></h1>
+		<div id="game">
+			<div id="menu">
+				<h2>Choose a puzzle:</h2>
+				<div id="select">
+					<img class="puzzleChoice" src="images/puzzle/1.jpg">
+					<img class="puzzleChoice" src="images/puzzle/2.jpg">
+					<img class="puzzleChoice" src="images/puzzle/3.jpg">
+					<img class="puzzleChoice" src="images/puzzle/4.jpg">					
+				</div>
+				<div id="btnPrev" class="btn"><</div>
+				<div id="btnNext" class="btn">></div>
+			</div>
+			<div id="preview">
+			</div>
+			<div id="puzzle">
+			</div>				
+		</div>
+		<div id="info">
+			<h2>About Puzzlegram</h2>
+			<p>Puzzlegram is a game that combines the greatness of a sliding puzzle and the beauty of Instagram pictures. We have a generous offer of 4 photos that you can use as puzzles to solve.</p>
+			<p>To start playing, please choose a puzzle as indicated above. After choosing a puzzle, the full rules of the game will be stated on the left side of the puzzle itself, below the puzzle preview image. Have fun!</p>
+		</div>
+		<footer>Developed by Anton Shevchenko. (1133357)</footer>
+		<!-- Displays when the user has completed the puzzle -->
+		<div id="won">
+			<div>
+				<h2>Congratulations!</h2>
+				<p>You solved the puzzle.</p>
+			</div>			
+			<audio id="audioWon">
+				<source src="sounds/aah.mp3" type="audio/mpeg">
+				<source src="sounds/aah.ogg" type="audio/ogg">
+			</audio>
+		</div>
+	</div>
+</body>
+</html>
